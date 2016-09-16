@@ -83,7 +83,9 @@ Use case ends.
 1. User requests to list existing tags
 2. AddressBook shows a list of existing tags
 3. User requests to rename a specific tag in the list
-4. AddressBook renames the tag to another name
+4. System asks for confirmation
+5. User confirms the rename
+6. AddressBook renames the tag to another name
 Use case ends.
 
 **Extensions**
@@ -96,6 +98,11 @@ Use case ends.
 
 > 3a1. AddressBook shows an error message <br>
   Use case resumes at step 2
+  
+  
+5a. User rejects the confirmation
+
+> Use case ends
 
 ## Appendix C : Non Functional Requirements
 
